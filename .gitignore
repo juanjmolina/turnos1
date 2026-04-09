@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.Python
+*.egg-info/
+
+# Entornos virtuales
+venv/
+.venv/
+env/
+
+# Base de datos local (no subir)
+db.sqlite3
+*.sqlite3
+*.db
+
+# Variables de entorno y secretos
+.env
+.env.local
+.streamlit/secrets.toml
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
